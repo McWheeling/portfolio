@@ -1,27 +1,421 @@
-<!doctype html>
-
-<!-- Jared Striemer Portfolio -->
-
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    <!-- Bootstrap and CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="styles\style.css">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Jared's Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
 
-    <title>Jared Striemer's Portfolio</title>  
-  </head>
+    <body id="page-top">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Jared Striemer's Portfolio  <i class="bi bi-person-wheelchair"></i></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Experiences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolioSection">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/McWheeling"> <i class="bi bi-github"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://ca.linkedin.com/in/jared-striemer-a808b02b0"> <i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/jkstrs_photo"> <i class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-  <body>
-      <h1>Jared Striemer's Portfolio</h1>
+        <!-- Masthead Header-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-bg-light font-weight-bold">Welcome to Jared's Portfolio</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="p-lg-0 bg-dark text-white mb-5">
+                            Eager to learn new skills, reliable, and wheely fun
+                        </p>
+                        <a class="btn btn-light btn-xl" href="#about">Find Out More!</a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-      <p>
-        Hi, I am Jared Striemer. I am a recent Saskpolytech graduate.
-      </p>
-  </body>
+        <!-- About Me Section -->
+        <section class="page-section bg-dark text-white" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">About Me</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">
+                            Hi! My name is Jared Striemer and I am a new CS graduate.
+                        </p>
+                        <a class="btn btn-light btn-xl" href="#services">My Education & Skills!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiences & Skills Section -->
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-3">
+                <h2 class="text-center mt-0">Experiences & Skills</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-terminal fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Languages</h3>
+                            <p class="text-muted mb-0">
+                                C, C#, Bash, Java, JavaScript, Python, Swift, TypeScript, Xamarin
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-database fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Database Management</h3>
+                            <p class="text-muted mb-0">
+                                Azure SQL DB, MySQL, Neo4J
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Web Development</h3>
+                            <p class="text-muted mb-0">
+                                HTML, CSS, Bootstrap, Express, Node, Vue, React
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-window-sidebar fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Applications</h3>
+                            <p class="text-muted mb-0">
+                                Docker, Visual Studio, VMWare, WebStorm, Autodesk AutoCAD & Revit, Photoshop, Lightroom
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-pc-display-horizontal fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Operating Systems</h3>
+                            <p class="text-muted mb-0">
+                                Microsoft Server 2016-2022, Windows 10 & 11, Linux, Mac OS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portfolio Section -->
+        <section class="page-section bg-dark text-white" id="portfolioSection">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-2">Portfolio Projects</h2>
+                <hr class="divider divider-light" />
+                <a class="btn btn-light btn-xl mb-auto" href="https://github.com/McWheeling">View my Github Repository <i class="bi bi-github"></i></a>
+            </div>
+        </section>
+
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <img class="img-fluid" src="/assets/img/portfolio/fullsize/KingWheels_fullsize.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Class Project</div>
+                                <div class="project-name">King Wheels Slot Mania</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <img class="img-fluid" src="/assets/img/portfolio/fullsize/PhotoWebsite_fullsize.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Class Group Project</div>
+                                <div class="project-name">Photography Website</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <img class="img-fluid" src="/assets/img/portfolio/fullsize/PizzaWebsite_fullsize.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Class Final Project</div>
+                                <div class="project-name">Pizza Website</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project Portfolio Modal 1 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Project Portfolio Modal 1 - Title-->
+                                    <h2 class="mb-2 text-center">King Wheels Slot Mania</h2>
+                                    <hr class="divider" />
+
+                                    <!-- Project Portfolio Modal 1 - Image Carousel-->
+                                    <div id="portfolioCarousel1" class="carousel carousel-dark slide carousel-fade col-lg-6" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="/assets/img/portfolio/KingWheels_proj1/KingWheelsSpin_Screen1.jpg" class="d-block img-fluid rounded mb-5" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/assets/img/portfolio/KingWheels_proj1/KingWheelsSpin_Screen2.jpg" class="d-block img-fluid rounded mb-5" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/assets/img/portfolio/KingWheels_proj1/KingWheelsSpin_Screen1.jpg" class="d-block img-fluid rounded mb-5" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel1" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel1" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+
+                                    <!-- Project Portfolio Modal 1 - Description -->
+                                    <p class="text-dark mb-4">
+                                        Android Studio game FILL
+                                        <br />
+                                        <br />
+                                        Project FILL
+                                    </p>
+                                    <a class="btn btn-dark btn-sm mb-auto" href="https://github.com/McWheeling/King-Wheels-Slot-Mania">View on Github <i class="bi bi-github"></i></a>
+
+                                    <p class="text-dark mb-4"><b>Created:</b> May 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project Portfolio Modal 2 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Project Portfolio Modal 2 - Title-->
+                                    <h2 class="mb-2 text-center">Photography Website</h2>
+                                    <hr class="divider" />
+
+                                    <!-- Project Portfolio Modal 2 - Image Carousel-->
+                                    <div id="portfolioCarousel2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="/assets/img/portfolio/PhotoWebsite_proj2/StoonSnowyCyber_jkstrs_photo.jpg" class="d-block img-fluid rounded mb-5" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/assets/img/portfolio/PhotoWebsite_proj2/PhotoWebsite_photo2.png" class="d-block img-fluid rounded mb-5" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/assets/img/portfolio/PhotoWebsite_proj2/CalgaryBucketShot_jkstrs_photo.jpg" class="d-block img-fluid rounded mb-5" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+
+                                    <!-- Project Portfolio Modal 2 - Description -->
+                                    <p class="text-dark mb-4">
+                                        Photography Website
+                                        <br />
+                                        <br />
+                                        Project FILL
+                                    </p>
+                                    <a class="btn btn-dark btn-sm mb-auto" href="https://github.com/McWheeling/CST-Year2-CWEB-Photo_Website">View on Github <i class="bi bi-github"></i></a>
+
+                                    <p class="text-dark mb-4">
+                                        <b>Created:</b> Nov-Dec 2022
+                                        <br/>
+                                        <b>Group Members:</b> Morgan H, Braeden B
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Portfolio Modal 3 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Project Portfolio Modal 3 - Title-->
+                                    <h2 class="mb-2 text-center">Pizza Website</h2>
+                                    <hr class="divider" />
+
+                                    <!-- Project Portfolio Modal 3 - Image Carousel-->
+                                    <div id="portfolioCarousel3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="/assets/img/portfolio/PizzaWebsite_proj3/PizzaWebsite_photo1.jpg" class="d-block img-fluid rounded mb-5" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/assets/img/portfolio/PizzaWebsite_proj3/PizzaWebsite_photo2.jpg" class="d-block img-fluid rounded mb-5" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/assets/img/portfolio/PizzaWebsite_proj3/PizzaWebsite_photo3.jpg" class="d-block img-fluid rounded mb-5" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+
+                                    <!-- Project Portfolio Modal 3 - Description -->
+                                    <p class="text-dark mb-4">
+                                        Pizza Website
+                                        <br />
+                                        <br />
+                                        Project FILL
+                                    </p>
+                                    <a class="btn btn-dark btn-sm mb-auto" href="https://github.com/McWheeling/CST-Year-1-HTML-Pizza-Website">View on Github <i class="bi bi-github"></i></a>
+
+                                    <p class="text-dark mb-4"><b>Created:</b> Dec 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact Section -->
+        <section class="page-section bg-light" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Contact Me</h2>
+                        <hr class="divider divider-dark" />
+                    </div>
+                </div>
+
+                <div class="row gx-4 gx-lg-5 justify-content-lg-center">
+                    <div class="col-lg-auto text-center">
+                        <div class="mt-4">
+                            <a class="btn btn-light" href="assets/JaredStriemer_Resume.pdf">
+                                <i class="bi bi-file-earmark-person-fill fs-2 mb-3"></i>
+                                <div>Resume</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto text-center">
+                        <div class="mt-4">
+                            <a class="btn btn-light" href="mailto:striemerjared19@gmail.com" target="_blank">
+                                <i class="bi-envelope-fill fs-2 mb-3"></i>
+                                <div>Email</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto text-center">
+                        <div class="mt-4">
+                            <a class="btn btn-light" href="https://ca.linkedin.com/in/jared-striemer-a808b02b0">
+                                <i class="bi-linkedin fs-2 mb-3"></i>
+                                <div>Linkedin</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto text-center">
+                        <div class="mt-4">
+                            <a class="btn btn-light" href="https://github.com/McWheeling">
+                                <i class="bi-github fs-2 mb-3"></i>
+                                <div>Github</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="bg-dark text-white py-5">
+            <div class="container px-4 px-lg-5">
+                <div class="text-light small text-center">
+                    Last edited April 16, 2024 - Jared Striemer
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
